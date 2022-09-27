@@ -11,5 +11,6 @@ public class ListSorter {
 class ListComparator implements Comparator<String> {
     @Override
     public int compare(String a, String b) {
+        return 1;
     }
 }
